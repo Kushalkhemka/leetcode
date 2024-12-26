@@ -15,5 +15,3 @@ const maxSubArray = (nums) => {
     return max_sum;
 
 };
-
-//O(n) time complexity
