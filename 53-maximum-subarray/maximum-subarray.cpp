@@ -14,7 +14,7 @@ public:
                 //reset the sum and make the i close to j
                 tempSum=0;
             }
-            tempSum+=nums[j];
+            tempSum+=nums[j];//key saving line it is protecting sum to return from zero after collapsing the window ]
             sum=max(sum,tempSum);
             j++;
         }
