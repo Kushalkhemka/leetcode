@@ -1,32 +1,23 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        // int max_sum=INT_MIN;
-        // for(int i=0;i<nums.size();i++){
-        //     int maxtemp=0; 
-        //     for(int j=i;j<nums.size();j++){
-        //         maxtemp+=nums[j];
-        //         max_sum=max(max_sum,maxtemp);
-                
-        //     }
+        //sliding window approach once again
+
+        //KADANE ALGORITHM
+        int n=nums.size(); int i=0; int j=1; int sum=nums[0]; int tempSum=nums[0];
+
+        //yaad aagya ham zero and negative dekhte the if prefix sum is zero or negative then neglect it in the window collapse the window otherwise keep expanding and updating sum=max(sum, currentSum);
+        while(j<n){
             
-        // }
-        // return max_sum;
-        int max_sum=INT_MIN;
-        int current_sum=0;
-        for(int i=0;i<nums.size();i++){
-            current_sum+=nums[i];
-            if(max_sum<=current_sum){
-                max_sum=current_sum;
+            if(tempSum<0){
+                //no sense to update here
+                //reset the sum and make the i close to j
+                tempSum=0;
             }
-            if(current_sum<0){
-                current_sum=0;
-            }
-            
+            tempSum+=nums[j];
+            sum=max(sum,tempSum);
+            j++;
         }
-        return max_sum;
-
-
-        
+        return sum;
     }
 };
