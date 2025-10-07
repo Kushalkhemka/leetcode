@@ -10,7 +10,7 @@ class Solution {
 public:
     void deleteNode(ListNode* node) {
         //swap the values;
-        ListNode* temp=node; //storing memory address of given node to a pointer
+     //storing memory address of given node to a pointer
         int value=node->next->val;
         node->next->val=node->val;
         node->val=value;
