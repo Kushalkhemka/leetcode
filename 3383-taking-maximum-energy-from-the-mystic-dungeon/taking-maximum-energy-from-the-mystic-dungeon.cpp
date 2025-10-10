@@ -14,4 +14,21 @@ public:
     }
     return max;
     }
+
+    // int maximumEnergy(vector <int>&energy, int k){
+    //     int n=energy.size();
+    //     int maxSum=INT_MIN;
+    //     int tempsum=0;
+    //     for(int i=0;i<n; i++){
+    //         int j=i;
+    //         tempsum+=energy[i];
+    //         while(j+k<n){
+    //             tempsum+=energy[j+k];
+    //             j=j+k;
+    //         }
+    //         maxSum=max(tempsum,maxSum);
+    //         tempsum=0;
+    //     }
+    //     return maxSum;
+    // }
 };
