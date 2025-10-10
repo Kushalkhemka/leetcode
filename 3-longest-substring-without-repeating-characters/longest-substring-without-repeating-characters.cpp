@@ -1,23 +1,32 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        // sliding window go brrr
-        int i = 0; // left pointer
-  
+        int i = 0;
+        int j = 0;
+        int n = s.length();
+        int count = 0;
+        int maxcount = 0;
+        std::unordered_set<char> charSet;
+        for (int j = 0; j < n; ++j) {
 
-        unordered_map<char,int> window; //to check if I have seen this previous in the sliding window or not in o(1). LOOKUP is o(1)
-        int l=0;
-        for (int k = 0; k < s.length(); k++) {
-            char currentChar=s[k];
-            if(window.find(currentChar)!=window.end()){
-               i = max(i, window[currentChar] + 1);
+            // CHANGED: Logic to handle duplicates.
+            // If the character at j is already in our set, we must shrink the
+            // window from the left.
+            while (charSet.count(s[j])) {
+                // Remove the character at the left pointer 'i' and move 'i'
+                // forward.
+                charSet.erase(s[i]);
+                i++;
             }
 
-            window[currentChar]=k; //update new iNDDEX
+            // After the window is valid (no duplicate of s[j]), add the new
+            // character.
+            charSet.insert(s[j]);
 
-            l=max(l,k-i+1);
-                //doing mistake making the window not overlapping //rethink
+            // CHANGED: Update maxcount with the correct length of the current
+            // valid window.
+            maxcount = std::max(maxcount, j - i + 1);
         }
-        return l;
+        return maxcount;
     }
 };
