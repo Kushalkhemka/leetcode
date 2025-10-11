@@ -1,19 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
-    int findPeakElement(vector<int>& nums) {
-        int lo=0; int hi=nums.size()-1; 
-      
-        while(lo<hi){
-            int mid=lo+(hi-lo)/2; 
-            if(mid<nums.size() && nums[mid]>nums[mid+1]){
-                //mid could be itself a peak or peak is on left side 
-                hi=mid;
-            }
-            else{
-                //mid is less than mid+1
-                lo=mid+1;
-            }
+    // Function to find the peak element in the array
+    int findPeakElement(vector<int> &arr) {
+        // Size of array
+        int n = arr.size();
+        
+        // Edge cases:
+        if (n == 1) return 0;
+        if (arr[0] > arr[1]) return 0;
+        if (arr[n - 1] > arr[n - 2]) return n - 1;
+
+        int low = 1, high = n - 2;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+
+            //If arr[mid] is the peak
+            if (arr[mid - 1] < arr[mid] && arr[mid] > arr[mid + 1])
+                return mid;
+
+            // If we are in the left
+            if (arr[mid] > arr[mid - 1]) low = mid + 1;
+
+            /* If we are in the right
+            Or, arr[mid] is a common point*/
+            else high = mid - 1;
         }
-        return lo;
+        /* Return -1 if no peak element
+        found (dummy return) */
+        return -1; 
     }
 };
+
