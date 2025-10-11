@@ -22,11 +22,11 @@ public:
                 return mid;
 
             // If we are in the left
-            if (arr[mid] > arr[mid - 1]) low = mid + 1;
+            if (arr[mid] > arr[mid + 1]) high = mid - 1;
 
             /* If we are in the right
             Or, arr[mid] is a common point*/
-            else high = mid - 1;
+            else low = mid + 1;
         }
         /* Return -1 if no peak element
         found (dummy return) */
