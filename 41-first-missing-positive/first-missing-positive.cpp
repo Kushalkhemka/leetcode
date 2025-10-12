@@ -2,26 +2,23 @@ class Solution {
 public:
     // Question Needs the cyclic sort
     int firstMissingPositive(vector<int>& nums) {
-        int n=nums.size();
-        // we have to sort 1 to N if nums[i]>N then just ignore it and i++;
+        int n = nums.size();
         int i = 0;
         while (i < n) {
-            long long correct_idx = (long long)nums[i] - 1;
-            if (correct_idx >= 0 && correct_idx < n && nums[i] != nums[correct_idx]) {
-                // we need to swap with correct index
-                // correct index is
-                 swap(nums[i], nums[correct_idx]);
+            // CHANGED: The last part of the condition is now more robust.
+            // It checks if the number at the current spot is the same as the
+            // number at its target destination. If they are the same, we don't swap.
+            if (nums[i] > 0 && nums[i] <= n && nums[i] != nums[nums[i] - 1]) {
+                swap(nums[nums[i] - 1], nums[i]);
             } else {
                 i++;
             }
         }
 
-        // iterate if the element at ith position is i+1 then move forward
-        // iother wise return i+1;
+        // This second part of your code is perfectly correct.
         for (int j = 0; j < n; j++) {
             if (nums[j] != j + 1) {
-                return j + 1; // The first place where the number doesn't match
-                              // the expected `j+1`.
+                return j + 1;
             }
         }
         return n + 1;
