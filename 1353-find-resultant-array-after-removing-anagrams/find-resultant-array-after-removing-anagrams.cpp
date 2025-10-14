@@ -1,35 +1,29 @@
+#include <vector>
+#include <string>
+#include <algorithm>
 class Solution {
 public:
     vector<string> removeAnagrams(vector<string>& words) {
-         if (words.size() <= 1) { // CHANGED: Handle edge case of 0 or 1 words.
-            return words;
+        if (words.empty()) {
+            return {};
         }
-        //start the i from 1
-        
-        int i=1;
-        while(i<words.size()){
-            unordered_map <char,int> freq1;
-            //first wale ka bana lo i-1
-            for(char c:words[i-1]){
-                freq1[c]++;
-            }
 
-            //now make of second which is of ith position
-            unordered_map <char,int> freq2;
-            for(char c:words[i]){
-                freq2[c]++;
-            }
+        vector<string> result;
+        result.push_back(words[0]); // The first word is always kept.
 
-            //now check if the freq map are equal or not
-            if(freq1==freq2){
-                //if yes then remove the ith word
-                words.erase(words.begin() + i);
-            }
-            else{
-                i++;
+        for (int i = 1; i < words.size(); ++i) {
+            // Create sorted versions of the current word and the last kept word.
+            string current_word_sorted = words[i];
+            string last_kept_word_sorted = result.back();
+            
+            sort(current_word_sorted.begin(), current_word_sorted.end());
+            sort(last_kept_word_sorted.begin(), last_kept_word_sorted.end());
+
+            // If the sorted versions are different, they are not anagrams.
+            if (current_word_sorted != last_kept_word_sorted) {
+                result.push_back(words[i]); // Keep the current word.
             }
         }
-        return words;
-    
+        return result;
     }
 };
