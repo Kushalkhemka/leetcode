@@ -1,62 +1,21 @@
 class Solution {
 public:
-    int maxFrequency(vector<int>& nums, int k, int numOperations) {
-        sort(nums.begin(), nums.end());
-
-        int ans = 0;
-        unordered_map<int, int> numCount;
-
-        int lastNumIndex = 0;
-        for (int i = 0; i < nums.size(); ++i) {
-            if (nums[i] != nums[lastNumIndex]) {
-                numCount[nums[lastNumIndex]] = i - lastNumIndex;
-                ans = max(ans, i - lastNumIndex);
-                lastNumIndex = i;
-            }
+    static int maxFrequency(vector<int>& nums, int k, int numOperations) {
+        static constexpr int N=1e5+2;
+        int freq[N]={0}, sweep[N]={0}, mm=N, MM=0;
+        for(int x: nums){
+            freq[x]++;
+            const int x0=max(1, x-k), xN=min(x+k+1, N-1);
+            sweep[x0]++;
+            sweep[xN]--;
+            mm=min(mm, x0);
+            MM=max(MM, xN);
         }
-
-        numCount[nums[lastNumIndex]] = nums.size() - lastNumIndex;
-        ans = max(ans, (int)nums.size() - lastNumIndex);
-
-        auto leftBound = [&](int value) {
-            int left = 0, right = nums.size() - 1;
-            while (left < right) {
-                int mid = (left + right) / 2;
-                if (nums[mid] < value) {
-                    left = mid + 1;
-                } else {
-                    right = mid;
-                }
-            }
-            return left;
-        };
-
-        auto rightBound = [&](int value) {
-            int left = 0, right = nums.size() - 1;
-            while (left < right) {
-                int mid = (left + right + 1) / 2;
-                if (nums[mid] > value) {
-                    right = mid - 1;
-                } else {
-                    left = mid;
-                }
-            }
-            return left;
-        };
-
-        for (int i = nums.front(); i <= nums.back(); i++) {
-            int l = leftBound(i - k);
-            int r = rightBound(i + k);
-
-            int tempAns;
-            if (numCount.count(i)) {
-                tempAns = min(r - l + 1, numCount[i] + numOperations);
-            } else {
-                tempAns = min(r - l + 1, numOperations);
-            }
-            ans = max(ans, tempAns);
+        int ans=0, cnt=0;
+        for (int x=mm; x<=MM; x++){
+            cnt+=sweep[x];
+            ans=max(ans, freq[x]+min(cnt-freq[x], numOperations));
         }
-
         return ans;
     }
 };
