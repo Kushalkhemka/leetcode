@@ -1,23 +1,24 @@
 class Solution {
 public:
     bool can_Ship(vector<int>& weights,int days,int leastW){
-        int daysNeeded = 1;
+        int daysCount=days;
         int i=0; int weightSoFar=0;
-        while(i<weights.size()){
+        while(daysCount>0 && i<weights.size()){
             if(weights[i]>leastW) return false;
             if(weightSoFar+weights[i]<=leastW){
                 weightSoFar+=weights[i];
                 i++;
             }
             else{
+                if (daysCount == 1) return false; // CHANGED: If we're on the last day, we can't start a new one.
                 weightSoFar=weights[i];
-                daysNeeded++;
+                daysCount--;
                 i++;
             }
             
         }
-        return daysNeeded <= days;
-        
+        if(i==weights.size()) return true;
+        else return false;
     }
     int shipWithinDays(vector<int>& weights, int days) {
         int lo=*std::max_element(weights.begin(),weights.end());
