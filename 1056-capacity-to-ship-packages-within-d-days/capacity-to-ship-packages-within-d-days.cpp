@@ -1,27 +1,25 @@
 class Solution {
 public:
-    bool can_Ship(const vector<int>& weights, int days, int capacity) {
-    int daysNeeded = 1;      // We always start on Day 1.
-    int currentWeight = 0;   // The weight loaded on the current day.
-
-    for (int w : weights) {
-        // The check for w > capacity is implicitly handled by the binary search's
-        // lower bound `lo = *max_element(...)`, but it's good practice to keep.
-        if (w > capacity) return false;
-
-        if (currentWeight + w <= capacity) {
-            // The package fits on the current day.
-            currentWeight += w;
-        } else {
-            // The package does not fit. We must start a new day.
-            daysNeeded++;
-            currentWeight = w; // This package is the first on the new day.
+    bool can_Ship(vector<int>& weights,int days,int leastW){
+        int daysCount=days;
+        int i=0; int weightSoFar=0;
+        while(daysCount>0 && i<weights.size()){
+            if(weights[i]>leastW) return false;
+            if(weightSoFar+weights[i]<=leastW){
+                weightSoFar+=weights[i];
+                i++;
+            }
+            else{
+                if (daysCount == 1) return false; // CHANGED: If we're on the last day, we can't start a new one.
+                weightSoFar=weights[i];
+                daysCount--;
+                i++;
+            }
+            
         }
+        if(i==weights.size()) return true;
+        else return false;
     }
-
-    // After checking all packages, see if the days we needed are within the budget.
-    return daysNeeded <= days;
-}
     int shipWithinDays(vector<int>& weights, int days) {
         int lo=*std::max_element(weights.begin(),weights.end());
         int n=weights.size();int sum=0; int ans=0;
