@@ -3,7 +3,6 @@ public:
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<vector<int>> dp(n+1, vector<int>(n+1, 0));
-
        
         for (int idx = n - 1; idx >= 0; idx--) {
             for (int prev = idx - 1; prev >= -1; prev--) {       
