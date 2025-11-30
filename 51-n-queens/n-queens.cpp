@@ -1,28 +1,28 @@
 class Solution {
 public:
-    bool isSafe(int row,int col,vector<string>&board,int n){
-        //dekho ki isSafe in upper diagonal, straight in the row, lower diagonal;
-        int originalRow=row; int originalCol=col;
-        //1st condition check in the current row
-        while(col>=0){
-            if(board[row][col]=='Q') return false;
-            col--;
-        }
-        //2nd condition check in the principal diagonal
-        row=originalRow; col=originalCol;
-        while(row>=0&& col>=0){
-            if(board[row][col]=='Q') return false;
-            row--;col--;
-        }
-        //3rd condition check in the other diagonal
-        row=originalRow; col=originalCol;
-        while(row<n && col>=0){
-            if(board[row][col]=='Q') return false;
-            row++;col--;
-        }
-        return true;
+    // bool isSafe(int row,int col,vector<string>&board,int n){
+    //     //dekho ki isSafe in upper diagonal, straight in the row, lower diagonal;
+    //     int originalRow=row; int originalCol=col;
+    //     //1st condition check in the current row
+    //     while(col>=0){
+    //         if(board[row][col]=='Q') return false;
+    //         col--;
+    //     }
+    //     //2nd condition check in the principal diagonal
+    //     row=originalRow; col=originalCol;
+    //     while(row>=0&& col>=0){
+    //         if(board[row][col]=='Q') return false;
+    //         row--;col--;
+    //     }
+    //     //3rd condition check in the other diagonal
+    //     row=originalRow; col=originalCol;
+    //     while(row<n && col>=0){
+    //         if(board[row][col]=='Q') return false;
+    //         row++;col--;
+    //     }
+    //     return true;
         
-    }
+    // }
     void solve(int col, vector<string>&board, vector<vector<string>>&ans,int n,vector<int>&leftrow,vector<int>&upperDiagonal,vector<int>&lowerDiagonal){
         if(col==n){
             //base case reached enjoy terminate i mean
