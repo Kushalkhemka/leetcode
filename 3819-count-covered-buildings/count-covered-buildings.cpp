@@ -1,8 +1,6 @@
 class Solution {
 public:
     int countCoveredBuildings(int n, vector<vector<int>>& buildings) {
-        // just like n queen make the 2  1-D array for the row and col storage
-        // of acquired poisition
         vector<int> minRow(n + 1, 1e9), maxRow(n + 1, INT_MIN),
             minCol(n + 1, 1e9), maxCol(n + 1, INT_MIN);
 
