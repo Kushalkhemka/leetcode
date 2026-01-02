@@ -1,12 +1,12 @@
 class Solution {
 public:
     int repeatedNTimes(vector<int>& nums) {
-        int n = nums.size() / 2;
-        unordered_map<int, int> freqMap;
-
-        for (int x : nums) {
-            if (++freqMap[x] == n) return x; // CHANGED: early exit
+        for (int i = 0; i + 2 < (int)nums.size(); i++) {
+            if (nums[i] == nums[i + 1] || nums[i] == nums[i + 2]) {
+                return nums[i];
+            }
         }
-        return -1;
+
+        return nums[nums.size() - 1]; 
     }
 };
