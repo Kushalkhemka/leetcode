@@ -11,16 +11,18 @@
  */
 class Solution {
 public:
-    vector<int> arr;
-    void inorder(TreeNode* node){
+    int result=-1;
+    void inorder(TreeNode* node,int& count){
+        if(result!=-1) return;
         if(node==nullptr) return;
-        inorder(node->left);
-        arr.push_back(node->val);
-        inorder(node->right);
+        inorder(node->left,count);
+        count--;
+        if(count==0) result=node->val;
+        inorder(node->right,count);
     }
     int kthSmallest(TreeNode* root, int k) {
         //very easy -> inorder traversal of the BST is sorted
-        inorder(root);
-        return arr[k-1];
+        inorder(root,k);
+        return result;
     }
 };
