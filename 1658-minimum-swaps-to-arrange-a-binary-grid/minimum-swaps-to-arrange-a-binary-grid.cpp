@@ -2,10 +2,9 @@ class Solution {
 public:
     int minSwaps(vector<vector<int>>& grid) {
         int n = grid.size(); // no of rows
-        int c = grid[0].size();
         vector<int> trailingZeroes(n);
         for (int i = 0; i < n; i++) {
-            for (int j = c - 1; j >= 0; j--) {
+            for (int j = grid[0].size()- 1; j >= 0; j--) {
                 if (grid[i][j] == 0) {
                     trailingZeroes[i]++;
                 } else
