@@ -2,14 +2,11 @@
 class Node {
    public:
     Node* links[2];
-    bool flg;
 
     Node() {
         for (int i = 0; i < 2; i++) {
             links[i] = NULL;
         }
-
-        flg = false;
     }
 
     bool containsKey(int b) {
@@ -24,10 +21,6 @@ class Node {
 
     // move to next node
     Node* getNext(int b) { return links[b]; }
-
-    void setFlag() { flg = true; }
-
-    bool isEnd() { return flg; }
 };
 
 class Trie {
@@ -46,9 +39,7 @@ class Trie {
             node = node->getNext(bit);  // movve to next node
         }
 
-        // after the loop finishes we will be on the last node make its flag
-        // true
-        node->setFlag();
+    
     }
 
     int getMax(int n) {
@@ -76,7 +67,7 @@ class Trie {
 
 class Solution {
 	public:	
-        static bool cmp(vector<int> a,vector<int>b){
+        static bool cmp(const vector<int> &a,const vector<int> &b){
             return a[1] < b[1];
         }
     	vector<int> maximizeXor(vector<int>& nums, vector<vector<int> >& queries) {
