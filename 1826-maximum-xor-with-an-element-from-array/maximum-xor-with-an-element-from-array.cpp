@@ -5,7 +5,7 @@ class Node {
 
     Node() {
         for (int i = 0; i < 2; i++) {
-            links[i] = NULL;
+            links[i] = nullptr;
         }
     }
 
@@ -82,7 +82,7 @@ class Solution {
             int j=0;
             for(int i=0; i<offline.size();i++){
                 //processing every query one by one
-                while(j < nums.size() & nums[j]<=offline[i][1]){
+                while(j < nums.size() && nums[j]<=offline[i][1]){
                     T->insert(nums[j]);
                     j++;
                 }
