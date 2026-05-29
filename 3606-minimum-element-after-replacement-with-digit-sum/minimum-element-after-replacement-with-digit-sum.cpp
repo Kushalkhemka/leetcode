@@ -3,7 +3,7 @@ class Solution
     public:
         int minElement(vector<int> &nums)
         {
-            vector<int> ans;
+            int ans=INT_MAX;
             int n=nums.size();
             for(int i=0;i<n;i++){
                 int temp=0;
@@ -11,8 +11,8 @@ class Solution
                     temp+=nums[i]%10;
                     nums[i]/=10;
                 }
-                ans.emplace_back(temp);
+                ans=min(temp,ans);
             }
-            return *min_element(ans.begin(), ans.end());
+            return ans;
         }
 };
