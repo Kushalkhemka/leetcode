@@ -22,6 +22,6 @@ public:
             fiveCount = fourCount + 1;
         }
         long long ans = (power(4, fourCount)% MOD * power(5, fiveCount)% MOD);
-        return ans;
+        return ans%MOD;
     }
 };
