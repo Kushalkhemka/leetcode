@@ -16,7 +16,7 @@ class Solution {
         }
     }
     vector<string> letterCombinations(string digits) {
-        vector<string> s = {"-",   "-",   "abc",  "def", "ghi",
+        vector<string> s = {"",   "",   "abc",  "def", "ghi",
                             "jkl", "mno", "pqrs", "tuv", "wxyz"};
         // s[3] = def , s[3][0]=d like this=
         string curr = "";
