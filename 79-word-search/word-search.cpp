@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    bool fn(vector<vector<char> >& board, string word, int idx, int i, int j) {
+    bool fn(vector<vector<char> >& board, const string &word, int idx, int i, int j) {
         char x = board[i][j];
 
         if (x == '#' || x != word[idx]) {
@@ -40,7 +40,7 @@ public:
         return ans;
     }
 
-    bool exist(vector<vector<char> >& board, string word) {
+    bool exist(vector<vector<char> >& board, const string &word) {
         int r = board.size();
         int c = board[0].size();
 
