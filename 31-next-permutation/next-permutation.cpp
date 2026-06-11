@@ -22,6 +22,9 @@ public:
         //we ensured of just greater because of sorted order of suffix
         swap(nums[j],nums[i-1]);
         //now sort ahead of i
-        sort(nums.begin()+i,nums.end());
+        // sort(nums.begin()+i,nums.end());
+
+        // changed: suffix is still in decreasing order, so reverse is enough instead of sort
+        reverse(nums.begin() + i, nums.end()); // changed
     }
 };
