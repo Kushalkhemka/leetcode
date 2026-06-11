@@ -1,23 +1,23 @@
 class Solution {
 public:
+    int dr[4] = {
+        -1,
+        0,
+        0,
+        1,
+    };
+    int dc[4] = {
+        0,
+        -1,
+        1,
+        0,
+    };
     void dfs(int i, int j, vector<vector<int>>& vis,
              const vector<vector<char>>& grid) {
         vis[i][j] = 1;
 
         // need to check in eight direction for adjacent 1 and then call dfs on
         // that i,j
-        int dr[] = {
-            -1,
-            0,
-            0,
-            1,
-        };
-        int dc[] = {
-            0,
-            -1,
-            1,
-            0,
-        };
 
         for (int k = 0; k < 4; k++) {
             int nr = i + dr[k];
