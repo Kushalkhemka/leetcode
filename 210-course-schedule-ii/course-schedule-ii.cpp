@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool dfs(int node, vector<vector<int>>& adj, vector<int>& vis, vector<int>& ans) {
+    bool dfs(const int node, const vector<vector<int>>& adj, vector<int>& vis, vector<int>& ans) {
         vis[node] = 1;
 
         for (auto it : adj[node]) {
@@ -13,11 +13,13 @@ public:
         }
 
         vis[node] = 2;
-        ans.push_back(node); // changed: push after processing all prerequisites
+        ans.push_back(node); //push into the vector (not stack as this question demands reverse of what is usually a topological order)
+
+        //furthermore state 2 means completely processed and when the dfs of a node is completed we just push into the stack that is the kahn algo intution simple.
         return false;
     }
 
-    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+    vector<int> findOrder(const int numCourses,const vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
 
         for (auto it : prerequisites) {
