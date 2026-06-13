@@ -1,7 +1,7 @@
 
 class Solution {
 public:
-    bool dfs(int node, const vector<vector<int>>& adj, vector<int>& visited,
+    bool dfs(int node, const vector<unordered_set<int>>& adj, vector<int>& visited,
              stack<int>& s) {
         visited[node] = 1; //  1 means current path
 
@@ -20,7 +20,7 @@ public:
         return false;
     }
 
-    string topoSort(const int V, const vector<vector<int>>& adj, const vector<int> &present) {
+    string topoSort(const int V, const vector<unordered_set<int>>& adj, const vector<int> &present) {
         // 0 based indexed graph
         stack<int> s;
         vector<int> visited(V, 0);
@@ -46,7 +46,7 @@ public:
 
         //also letters may be not contiguous as in the striver one 
         int V = 26;
-        vector<vector<int>> adj(V);
+        vector<unordered_set<int>> adj(V);
         vector<int> present(V, 0);
 
        
@@ -79,20 +79,10 @@ public:
                  int u = a[j] - 'a';
                 int v = b[k] - 'a';
 
-                adj[u].push_back(v);
+                adj[u].insert(v);
 
-                // avoid duplicate edge
-                bool found = false;
-                for (const auto &it : adj[u]) {
-                    if (it == v) {
-                        found = true;
-                        break;
-                    }
-                }
-
-                if (!found) {
-                    adj[u].push_back(v);
-                }
+                // avoid duplicate edge using set
+              
             }
         }
 
