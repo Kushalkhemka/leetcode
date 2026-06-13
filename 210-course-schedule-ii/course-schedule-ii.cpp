@@ -3,7 +3,7 @@ public:
     bool dfs(const int node, const vector<vector<int>>& adj, vector<int>& vis, vector<int>& ans) {
         vis[node] = 1;
 
-        for (auto it : adj[node]) {
+        for (const auto &it : adj[node]) {
             if (vis[it] == 0) {
                 if (dfs(it, adj, vis, ans)) return true;
             }
@@ -22,7 +22,7 @@ public:
     vector<int> findOrder(const int numCourses,const vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
 
-        for (auto it : prerequisites) {
+        for (const auto &it : prerequisites) {
             adj[it[0]].push_back(it[1]);
         }
 
