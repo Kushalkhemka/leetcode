@@ -3,6 +3,7 @@ public:
     bool ans = false;
     void dfs(int node, const vector<vector<int>> &adj, vector<int> &visited,
              vector<int> &pathVis) {
+        if(ans) return;
         visited[node] = 1;
         pathVis[node] = 1;
         for (auto it : adj[node]) {
