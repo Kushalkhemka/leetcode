@@ -3,14 +3,14 @@ class Solution {
     bool dfs(int node, const vector<vector<int>> &adj, vector<int>& visited) {
         visited[node] = 1;  // current path
 
-        for (auto it : adj[node]) {
+        for (const auto &it : adj[node]) {
             if (visited[it] == 0) {
                 if (dfs(it, adj, visited)) {
-                    visited[node] = 3;  // changed: child unsafe, so current unsafe
+                    visited[node] = 3;  // child unsafe, so current unsafe
                     return true;
                 }
             } else if (visited[it] == 1 || visited[it] == 3) {
-                visited[node] = 3;  // changed: cycle/unsafe neighbour found
+                visited[node] = 3;  // cycle/unsafe neighbour found
                 return true;
             }
         }
