@@ -1,38 +1,40 @@
 class Solution {
 public:
-    bool ans = false;
-    void dfs(int node, const vector<vector<int>> &adj, vector<int> &visited,
-             vector<int> &pathVis) {
-        if(ans) return;
-        visited[node] = 1;
-        pathVis[node] = 1;
+    bool dfs(int node, vector<vector<int>> &adj, vector<int> &vis) {
+        vis[node] = 1; // currently in recursion path
+
         for (auto it : adj[node]) {
-            if (!visited[it]) {
-                dfs(it, adj, visited, pathVis);
-            } else {
-                if (pathVis[it]) {
-                    ans =true;
+            if (vis[it] == 0) {
+                if (dfs(it, adj, vis)) {
+                    return true;
+                }
+            }
+            else if (vis[it] == 1) {
+                return true; // cycle found
+            }
+        }
+
+        vis[node] = 2; // fully processed
+        return false;
+    }
+
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        vector<vector<int>> adj(numCourses);
+
+        for (auto it : prerequisites) {
+            adj[it[0]].push_back(it[1]);
+        }
+
+        vector<int> vis(numCourses, 0);
+
+        for (int i = 0; i < numCourses; i++) {
+            if (vis[i] == 0) {
+                if (dfs(i, adj, vis)) {
+                    return false;
                 }
             }
         }
-        pathVis[node] = 0;
-    }
 
-    bool isCyclic(int N, const vector<vector<int>> &adj) {
-        vector<int> vis(N, 0);
-        vector<int> pathVis(N, 0);
-        for (int i = 0; i < N; i++) {
-            if (!vis[i]) {
-                dfs(i, adj, vis, pathVis);
-            }
-        }
-        return ans;
-    }
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> adj(numCourses);
-        for (auto it : prerequisites) {
-            adj[it[0]].push_back(it[1]); //graph is directed now
-        }
-        return !isCyclic(numCourses,adj);
+        return true;
     }
 };
