@@ -3,7 +3,7 @@ public:
     bool dfs(int node, vector<vector<int>> &adj, vector<int> &vis) {
         vis[node] = 1; // currently in recursion path
 
-        for (auto it : adj[node]) {
+        for (const auto &it : adj[node]) {
             if (vis[it] == 0) {
                 if (dfs(it, adj, vis)) {
                     return true;
@@ -21,7 +21,7 @@ public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
 
-        for (auto it : prerequisites) {
+        for (const auto &it : prerequisites) {
             adj[it[0]].push_back(it[1]);
         }
 
