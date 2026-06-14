@@ -17,10 +17,10 @@ public:
         while(!q.empty()){
             //chng the every character from a to z
             string word=q.front().first;
-            string original=word;
             int step=q.front().second;
             q.pop();
             for(int i=0;i<word.length();i++){
+                char old = word[i];
                 for(char c='a';c<='z';c++){
                     word[i]=c;
                     if(word==targetWord){
@@ -32,7 +32,7 @@ public:
                         st.erase(word);
                     }
                 }
-                word=original; //so char of original is preserved otherwise it will modify our whole startWord which is wrong
+                word[i] = old;; //so char of original is preserved otherwise it will modify our whole startWord which is wrong
             }
         }
         return 0;
