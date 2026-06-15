@@ -38,28 +38,30 @@ public:
 class Solution {
 public:
     int removeStones(vector<vector<int>>& stones) {
-        vector<pair<int, int>> edges;
-        int n = stones.size();
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (stones[i][0] == stones[j][0] ||
-                    stones[i][1] == stones[j][1]) {
-                    edges.push_back({i, j});
-                }
+        DisjointSet ds(20002);
+        unordered_set<int> nodes;
+
+        for (auto& it : stones) {
+            int row = it[0];
+            int col =
+                it[1] +
+                10001; // changed: offset column to separate row and col nodes
+
+            ds.unionByRank(row,
+                           col); // changed: union row node with column node
+            nodes.insert(row);   // changed: track only used row/col nodes
+            nodes.insert(col);   // changed
+        }
+
+        int connectedComponents = 0;
+
+        for (auto node : nodes) {
+            if (ds.findUPar(node) ==
+                node) { // changed: use findUPar, not parent[node]
+                connectedComponents++;
             }
         }
 
-        DisjointSet ds(n);
-        for (const auto& edge : edges) {
-            ds.unionByRank(edge.first, edge.second);
-        }
-
-        int connectedComponents = 0; // equals to UPars
-        for (int i = 0; i < n; i++) {
-            if (ds.parent[i] == i)
-                connectedComponents++;
-        }
-
-        return n - connectedComponents;
+        return stones.size() - connectedComponents;
     }
 };
