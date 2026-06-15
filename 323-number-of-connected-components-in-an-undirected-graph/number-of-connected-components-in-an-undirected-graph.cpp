@@ -1,18 +1,18 @@
 class Solution {
 public:
-   void dfs(int node, const vector<vector<int>> &adj, vector<int> &visited) {
+   void dfs(const int node, const vector<vector<int>> &adj, vector<int> &visited) {
         visited[node] = 1;
         
-        for (auto it : adj[node]) {
+        for (const auto &it : adj[node]) {
             if(!visited[it]){
                 dfs(it,adj,visited);
             }
         }
     }
-    int dfsOfGraph(int V, const vector<vector<int>> &edges) {
+    int dfsOfGraph(const int V, const vector<vector<int>> &edges) {
         vector<vector<int>> adj(V);
 
-        for (auto it : edges) {
+        for (const auto &it : edges) {
             adj[it[0]].push_back(it[1]);
             adj[it[1]].push_back(it[0]);  // because graph is undirected
         }
@@ -26,7 +26,7 @@ public:
         }
         return cnt;
     }
-    int countComponents(int n, vector<vector<int>>& edges) {
+    int countComponents(const int n, const vector<vector<int>>& edges) {
         return dfsOfGraph(n, edges);
     }
 };
