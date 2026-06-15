@@ -35,7 +35,7 @@ public:
 };
 class Solution {
 public:
-    vector<int> numIslands2(int m, int n, vector<vector<int>>& positions) {
+    vector<int> numIslands2(int m, int n, const vector<vector<int>>& positions) {
         vector<vector<int>> grid(m, vector<int>(n, 0));
         vector<int> ans;
         DisjointSet ds(m * n);
