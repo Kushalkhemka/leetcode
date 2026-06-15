@@ -38,26 +38,39 @@ public:
 class Solution {
 public:
     int removeStones(vector<vector<int>>& stones) {
-        DisjointSet ds(20002);
+       
         unordered_set<int> nodes;
+
+         /* To store the maximum row 
+        and column having a stone */
+        int maxRow = 0;
+        int maxCol = 0;
+        
+        // Iterate on all the nodes
+        for (auto it : stones) {
+            maxRow = max(maxRow, it[0]);
+            maxCol = max(maxCol, it[1]);
+        }
+
+         DisjointSet ds(maxRow+maxCol+2);
+        
 
         for (auto& it : stones) {
             int row = it[0];
             int col =
                 it[1] +
-                10001; // changed: offset column to separate row and col nodes
-
+                maxRow+1; 
             ds.unionByRank(row,
-                           col); // changed: union row node with column node
-            nodes.insert(row);   // changed: track only used row/col nodes
-            nodes.insert(col);   // changed
+                           col); 
+            nodes.insert(row);  
+            nodes.insert(col);   
         }
 
         int connectedComponents = 0;
 
         for (auto node : nodes) {
             if (ds.findUPar(node) ==
-                node) { // changed: use findUPar, not parent[node]
+                node) { 
                 connectedComponents++;
             }
         }
