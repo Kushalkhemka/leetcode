@@ -1,9 +1,9 @@
 class Solution {
 public:
 
-    void dfs(int i, int j, vector<vector<int>>& vis,
-             const vector<vector<int>>& grid, int &area) {
-        vis[i][j] = 1;
+    void dfs(int i, int j,
+              vector<vector<int>>& grid, int &area) {
+        grid[i][j] = 0; //fully processed no vis array needed
         area++;
 
         // need to check in eight direction for adjacent 1 and then call dfs on
@@ -16,21 +16,20 @@ public:
             int nc = j + dc[k];
 
             if (nr >= 0 && nr < grid.size() && nc >= 0 && nc < grid[0].size() &&
-                grid[nr][nc] == 1 && !vis[nr][nc]) {
-                dfs(nr, nc, vis, grid,area);
+                grid[nr][nc] == 1) {
+                dfs(nr, nc, grid,area);
             }
         }
     }
     int maxAreaOfIsland(vector<vector<int>>& grid) {
         int n = grid.size();    // no.of rows
         int m = grid[0].size(); // no. of cols
-        vector<vector<int>> vis(n, vector<int>(m, 0));
         int maxi=0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                if (!vis[i][j] && grid[i][j] == 1) {
+                if (grid[i][j] == 1) {
                     int area=0;
-                    dfs(i, j, vis, grid,area);
+                    dfs(i, j,grid,area);
                     maxi=max(area,maxi);
                 }
             }
