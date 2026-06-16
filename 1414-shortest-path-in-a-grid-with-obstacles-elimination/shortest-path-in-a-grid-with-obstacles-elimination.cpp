@@ -1,8 +1,10 @@
 class Solution {
 public:
     int shortestPath(vector<vector<int>>& grid, int k) {
+
         int n = grid.size();
         int m = grid[0].size();
+        if (k >= n + m - 3) return n + m - 2;
         queue<tuple<int,int,int,int>> q;
         int ans = 0;
         int dr[] = {-1, 0, 0, 1};
