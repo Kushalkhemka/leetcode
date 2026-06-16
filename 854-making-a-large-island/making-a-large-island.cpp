@@ -45,27 +45,26 @@ public:
 
         DisjointSet ds(m * n);
 
-        int buildDr[] = {0, 1}; // changed: separate directions for DSU build, right and down only
-        int buildDc[] = {1, 0}; // changed: separate directions for DSU build, right and down only
+        int buildDr[] = {0, 1}; 
+        int buildDc[] = {1, 0}; 
 
         int dr[] = {0, 1, -1, 0};
         int dc[] = {1, 0, 0, -1};
 
-        bool hasZero = false; // changed: avoids storing all zero positions
-
+        bool hasZero = false; 
         // Step 1: Build DSU for all existing 1-connected components
         for (int r = 0; r < m; r++) {
             for (int c = 0; c < n; c++) {
                 if (grid[r][c] == 0) {
-                    hasZero = true; // changed: only track whether zero exists
+                    hasZero = true; 
                     continue;
                 }
 
                 int node = r * n + c;
 
                 for (int i = 0; i < 2; i++) {
-                    int nr = r + buildDr[i]; // changed: using buildDr
-                    int nc = c + buildDc[i]; // changed: using buildDc
+                    int nr = r + buildDr[i]; 
+                    int nc = c + buildDc[i]; 
 
                     if (nr >= 0 && nr < m && nc >= 0 && nc < n &&
                         grid[nr][nc] == 1) {
@@ -77,17 +76,17 @@ public:
         }
 
         if (!hasZero) {
-            return m * n; // changed: simpler all-ones case
+            return m * n;
         }
 
         // Step 2: Try converting every 0 to 1
-        for (int r = 0; r < m; r++) { // changed: directly scanning grid again instead of Zeroes vector
-            for (int c = 0; c < n; c++) { // changed: directly scanning grid again
+        for (int r = 0; r < m; r++) {
+            for (int c = 0; c < n; c++) { 
                 if (grid[r][c] == 1)
-                    continue; // changed: only process zero cells
+                    continue; 
 
-                int ans = 1; // changed: start from 1 because we are flipping current 0
-                vector<int> parents; // changed: lighter than unordered_set because max 4 parents only
+                int ans = 1;
+                vector<int> parents;
 
                 for (int i = 0; i < 4; i++) {
                     int nr = r + dr[i];
@@ -98,8 +97,8 @@ public:
                         int adjNode = nr * n + nc;
                         int uPar = ds.findUPar(adjNode);
 
-                        bool alreadyAdded = false; // changed: manual duplicate check
-                        for (int p : parents) { // changed: at most 4 elements, so this is cheap
+                        bool alreadyAdded = false; 
+                        for (int p : parents) { 
                             if (p == uPar) {
                                 alreadyAdded = true;
                                 break;
@@ -107,8 +106,8 @@ public:
                         }
 
                         if (!alreadyAdded) {
-                            parents.push_back(uPar); // changed: add unique parent only
-                            ans += ds.size[uPar];    // changed: add size immediately
+                            parents.push_back(uPar); 
+                            ans += ds.size[uPar];   
                         }
                     }
                 }
