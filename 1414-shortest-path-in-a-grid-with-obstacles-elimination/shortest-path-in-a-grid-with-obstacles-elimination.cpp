@@ -3,7 +3,7 @@ public:
     int shortestPath(vector<vector<int>>& grid, int k) {
         int n = grid.size();
         int m = grid[0].size();
-        queue<vector<int>> q;
+        queue<tuple<int,int,int,int>> q;
         int ans = 0;
         int dr[] = {-1, 0, 0, 1};
         int dc[] = {0, -1, 1, 0};
@@ -16,10 +16,7 @@ public:
             int qs =
                 q.size(); // must be before for loop as size chnges in for loop
             for (int l = 0; l < qs; l++) {
-                int r = q.front()[0];
-                int c = q.front()[1];
-                int d = q.front()[2];
-                int obs=q.front()[3];
+               auto [r, c, d, obs] = q.front();
                 q.pop();
 
                 if (r == n-1 && c == m-1)
