@@ -18,7 +18,6 @@ public:
                 s.push(nums[i]);
             }
             else{
-                arr1[i]=s.top();
                 s.push(nums[i]);
             }
         }
