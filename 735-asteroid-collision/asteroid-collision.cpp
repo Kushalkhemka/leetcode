@@ -18,8 +18,6 @@ public:
                 }
                 if (s.empty() ||s.top()<0 )
                     s.push(a[i]);
-                else if (s.top() > abs(a[i]))
-                    continue;
                 else if(s.top()==abs(a[i])) s.pop(); 
             } else {
                 s.push(a[i]);
