@@ -1,9 +1,8 @@
 class Solution {
 public:
-    bool checkValidString(string st) {
+    bool checkValidString(const string &st) {
         stack<int> s1;
         stack<int> s2;
-        int cnt = 0;
         for (int i = 0; i < st.size(); i++) {
             if (st[i] == '(') {
                 s1.push(i);
