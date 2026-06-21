@@ -1,6 +1,6 @@
 class Solution {
 public:
-    static bool cmp(vector<int>& a, vector<int>& b) {
+    static bool cmp(const vector<int>& a, const vector<int>& b) { // changed: const reference avoids unnecessary modification risk
         if (a[0] == b[0])
             return (a[1] < b[1]);
         return (a[0] < b[0]);
@@ -8,22 +8,21 @@ public:
 
     int minMeetingRooms(vector<vector<int>>& intervals) {
         // sort by the starting time
-        multiset<int> st;
-
         sort(intervals.begin(), intervals.end(), cmp);
 
-        int n = intervals.size();
+        priority_queue<int, vector<int>, greater<int>> pq; 
 
-        st.insert(intervals[0][1]);
+        int rooms = 0; 
 
-        for (int i = 1; i < n; i++) {
-            if (*st.begin() <= intervals[i][0]) { 
-                st.erase(st.begin()); 
+        for (int i = 0; i < intervals.size(); i++) {
+            while (!pq.empty() && pq.top() <= intervals[i][0]) { 
+                pq.pop(); 
             }
 
-            st.insert(intervals[i][1]); 
+            pq.push(intervals[i][1]); 
+            rooms = max(rooms, (int)pq.size());
         }
 
-        return st.size();
+        return rooms;
     }
 };
