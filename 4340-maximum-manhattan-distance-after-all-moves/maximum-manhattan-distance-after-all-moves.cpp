@@ -1,8 +1,8 @@
 class Solution {
 public:
-    int maxDistance(string moves) {
+    int maxDistance(const string &moves) {
         int x=0;int y=0; int count=0;
-        for(auto &c:moves){
+        for(const auto &c:moves){
             if(c=='L') x-=1;
             else if(c=='D') y-=1;
             else if(c=='U') y+=1;
