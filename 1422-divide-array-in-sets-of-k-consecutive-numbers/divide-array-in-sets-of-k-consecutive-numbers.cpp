@@ -1,20 +1,31 @@
 class Solution {
 public:
     bool isPossibleDivide(vector<int>& nums, int k) {
+        if(nums.size() % k != 0) return false; 
+
         map<int,int> freqMap;
-        if(k>nums.size()) return false;
+
         for(int x:nums){
             freqMap[x]++;
         }
 
-        for(auto [val,fVal]:freqMap){
-            if(fVal>0){
-                for(int i=val;i<val+k;i++){
-                    if(freqMap[i]>=fVal) freqMap[i]-=fVal;
-                    else return false;
+        for(auto& [val, fVal] : freqMap){ 
+            if(fVal > 0){
+                int groups = fVal; 
+
+                for(int i = val; i < val + k; i++){
+                    auto it = freqMap.find(i); 
+
+                    if(it != freqMap.end() && it->second >= groups) {
+                        it->second -= groups; 
+                    }
+                    else {
+                        return false;
+                    }
                 }
             }
         }
+
         return true;
     }
 };
