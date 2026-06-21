@@ -1,13 +1,13 @@
 
 class Solution {
 public:
-    bool isNStraightHand(vector<int>& nums, int k) {
+    bool isNStraightHand( vector<int>& nums, const int k) {
         if (nums.size() % k != 0)
             return false;
 
         map<int, int> freqMap;
 
-        for (int x : nums) {
+        for (int &x : nums) {
             freqMap[x]++;
         }
 
