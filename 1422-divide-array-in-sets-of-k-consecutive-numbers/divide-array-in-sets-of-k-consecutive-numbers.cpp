@@ -7,9 +7,9 @@ public:
         }
 
         for(auto [val,fVal]:freqMap){
-            while(freqMap[val]>0){
+            if(fVal>0){
                 for(int i=val;i<val+k;i++){
-                    if(freqMap[i]>0) freqMap[i]--;
+                    if(freqMap[i]>=fVal) freqMap[i]-=fVal;
                     else return false;
                 }
             }
