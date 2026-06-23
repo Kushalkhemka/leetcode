@@ -1,12 +1,12 @@
 class Solution {
 public:
-    int maxNumberOfBalloons(string text) {
+    int maxNumberOfBalloons(const string& text) {
         unordered_map<int, int> freqMap;
         for (auto& c : text) {
             freqMap[c]++;
         }
         vector<char> arr = {'b', 'a', 'l', 'l', 'o', 'o', 'n'};
-        int ans = INT_MAX;
+        int ans = 1e9;
         if (freqMap['o'] > 0)
             freqMap['o'] /= 2;
         if (freqMap['l'] > 0)
