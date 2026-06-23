@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maxNumberOfBalloons(const string& text) {
+    int maxNumberOfBalloons(string& text) {
         unordered_map<int, int> freqMap;
         for (auto& c : text) {
             freqMap[c]++;
