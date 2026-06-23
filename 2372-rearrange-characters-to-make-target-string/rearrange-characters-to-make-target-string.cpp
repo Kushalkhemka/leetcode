@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int rearrangeCharacters(string s, string target) {
+    int rearrangeCharacters(const string&s, const string &target) {
         unordered_map<int, int> freqMap;
         unordered_map<int, int> mp;
         for (auto& c : s) {
