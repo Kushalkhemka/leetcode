@@ -4,9 +4,6 @@
 class Solution {
 public:
     int findCelebrity(int n) {
-   
-  
-
         vector<int> candidates;
         ///first go for outdegree
         for(int i=0;i<n;i++){
