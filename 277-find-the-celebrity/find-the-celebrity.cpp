@@ -4,7 +4,7 @@
 class Solution {
 public:
     int findCelebrity(int n) {
-        vector<int> indegree(n);
+   
   
 
         vector<int> candidates;
