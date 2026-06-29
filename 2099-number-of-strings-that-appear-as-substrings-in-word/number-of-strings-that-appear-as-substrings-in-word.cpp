@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
 public:
     int numOfStrings(vector<string>& patterns, string word) {
         //generate all the substrings
@@ -13,6 +13,17 @@ public:
         int cnt=0;
         for(auto &s:patterns){
             if(st.find(s)!=st.end())cnt++;
+        }
+        return cnt;
+    }
+};
+
+class Solution {
+public:
+    int numOfStrings(vector<string>& patterns, string word) {
+        int cnt=0;
+        for(auto &s:patterns){
+            if(word.find(s)!=string::npos)cnt++;
         }
         return cnt;
     }
