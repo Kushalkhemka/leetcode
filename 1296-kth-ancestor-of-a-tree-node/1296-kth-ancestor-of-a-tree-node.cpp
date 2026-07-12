@@ -28,16 +28,15 @@ public:
 
     int getKthAncestor(int node, int k) {
         int i = 0;
-        int nd = node;
-        while (k > 0 && nd != -1) {
-            int binary = k & 1;
-            if (binary == 1) {
-                nd = up[nd][i];
+        while (k > 0 && node != -1) {
+            if (k & 1) {
+                node = up[node][i];
             }
+
             k >>= 1;
             i++;
         }
-        return nd;
+        return node;
     }
 };
 
