@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Greedy
 |  |
 | ------- |
@@ -35,10 +36,12 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Binary Tree
 |  |
 | ------- |
@@ -60,4 +63,17 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+## Design
+|  |
+| ------- |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 <!---LeetCode Topics End-->
