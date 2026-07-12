@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 ## Math
 |  |
 | ------- |
@@ -54,4 +56,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
