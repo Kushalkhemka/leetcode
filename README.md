@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/Kushalkhemka/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0285-inorder-successor-in-bst) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/Kushalkhemka/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0285-inorder-successor-in-bst) |
@@ -87,6 +90,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Binary Search Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0099-recover-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/Kushalkhemka/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0285-inorder-successor-in-bst) |
