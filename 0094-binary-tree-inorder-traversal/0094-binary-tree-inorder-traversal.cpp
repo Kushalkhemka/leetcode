@@ -36,7 +36,7 @@ static auto _ = []() {
     return 0;
 };
 
-class Solution {
+class Solution1 {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> ans;
@@ -73,6 +73,58 @@ public:
                 }
             }
         }
+        return ans;
+    }
+};
+
+class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* node) {
+        stack<TreeNode*> st;
+        vector<int> ans;
+
+        while (true) {
+            if (node != nullptr) {
+                // push to stack and move left
+                st.push(node);
+                node = node->left;
+            }
+            // if node is nullptr then we move back and then move to right
+            else {
+                // when coming back
+                if (st.empty())
+                    break;
+                node = st.top();
+                st.pop();
+                ans.push_back(node->val);
+                node = node->right;
+            }
+        }
+
+        return ans;
+    }
+};
+
+class Solution2 {
+public:
+    void fn(TreeNode* root, vector<int>& ans) {
+        if (root->right == nullptr && root->left == nullptr) {
+            ans.push_back(root->val);
+            return;
+        }
+
+        // left
+        if (root->left != nullptr)
+            fn(root->left, ans);
+        // beech wala
+        ans.push_back(root->val);
+        // right
+        if (root->right != nullptr)
+            fn(root->right, ans);
+    }
+    vector<int> inorder(TreeNode* root) {
+        vector<int> ans;
+        fn(root, ans);
         return ans;
     }
 };
