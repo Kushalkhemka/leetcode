@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Kushalkhemka/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Greedy
 |  |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Kushalkhemka/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushalkhemka/leetcode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 ## Depth-First Search
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0285-inorder-successor-in-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Kushalkhemka/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushalkhemka/leetcode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 ## Binary Tree
@@ -73,6 +76,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Kushalkhemka/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Math
 |  |
 | ------- |
@@ -98,6 +102,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Kushalkhemka/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Bit Manipulation
 |  |
 | ------- |
