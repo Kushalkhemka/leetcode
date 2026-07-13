@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushalkhemka/leetcode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 ## Math
 |  |
@@ -70,6 +73,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Binary Search Tree
 |  |
 | ------- |
+| [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Bit Manipulation
