@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -37,12 +39,14 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushalkhemka/leetcode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushalkhemka/leetcode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 ## Binary Tree
 |  |
@@ -53,6 +57,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushalkhemka/leetcode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
 ## Enumeration
 |  |
@@ -71,6 +76,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
