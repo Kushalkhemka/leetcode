@@ -71,7 +71,6 @@ public:
             }
         }
 
-        // changed: final one edge from each node to LCA
         return 2 * (jumps + 1);
     }
 
@@ -79,27 +78,26 @@ public:
         if (u == v)
             return 0;
 
-        int dist = 0; // changed: total edges between original nodes
+        int dist = 0;
 
         // first bring both nodes to the same depth
         if (depthU < depthV) {
             int diff = depthV - depthU;
             v = getKthAncestor(v, diff);
 
-            dist += diff; // changed: count the initial depth difference
+            dist += diff;
         } else if (depthU > depthV) {
             int diff = depthU - depthV;
             u = getKthAncestor(u, diff);
 
-            dist += diff; // changed: count the initial depth difference
+            dist += diff;
         }
 
-        // changed: one node is an ancestor of the other
         if (u == v) {
             return power(2, dist - 1);
         }
 
-        dist += getLCADist(u, v); // changed: remaining path through LCA
+        dist += getLCADist(u, v);
 
         return power(2, dist - 1);
     }
