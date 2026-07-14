@@ -164,4 +164,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/Kushalkhemka/leetcode/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
