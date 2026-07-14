@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [2625-increment-submatrices-by-one](https://github.com/Kushalkhemka/leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 ## Hash Table
 |  |
@@ -142,4 +143,9 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Kushalkhemka/leetcode/tree/master/0037-sudoku-solver) |
+| [2625-increment-submatrices-by-one](https://github.com/Kushalkhemka/leetcode/tree/master/2625-increment-submatrices-by-one) |
+## Prefix Sum
+|  |
+| ------- |
+| [2625-increment-submatrices-by-one](https://github.com/Kushalkhemka/leetcode/tree/master/2625-increment-submatrices-by-one) |
 <!---LeetCode Topics End-->
