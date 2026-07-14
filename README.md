@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
+| [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [2625-increment-submatrices-by-one](https://github.com/Kushalkhemka/leetcode/tree/master/2625-increment-submatrices-by-one) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Kushalkhemka/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Kushalkhemka/leetcode/tree/master/0037-sudoku-solver) |
+| [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [2625-increment-submatrices-by-one](https://github.com/Kushalkhemka/leetcode/tree/master/2625-increment-submatrices-by-one) |
 ## Prefix Sum
 |  |
