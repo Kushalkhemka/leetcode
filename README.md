@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Kushalkhemka/leetcode/tree/master/0037-sudoku-solver) |
+| [0051-n-queens](https://github.com/Kushalkhemka/leetcode/tree/master/0051-n-queens) |
 | [0135-candy](https://github.com/Kushalkhemka/leetcode/tree/master/0135-candy) |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Kushalkhemka/leetcode/tree/master/0037-sudoku-solver) |
+| [0051-n-queens](https://github.com/Kushalkhemka/leetcode/tree/master/0051-n-queens) |
 ## Matrix
 |  |
 | ------- |
