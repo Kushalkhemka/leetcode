@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0135-candy](https://github.com/Kushalkhemka/leetcode/tree/master/0135-candy) |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [2625-increment-submatrices-by-one](https://github.com/Kushalkhemka/leetcode/tree/master/2625-increment-submatrices-by-one) |
@@ -18,11 +19,13 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0037-sudoku-solver](https://github.com/Kushalkhemka/leetcode/tree/master/0037-sudoku-solver) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
 ## Sorting
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
 ## Dynamic Programming
 |  |
@@ -65,6 +68,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Kushalkhemka/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
@@ -116,6 +120,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Design
 |  |
@@ -148,4 +153,12 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [2625-increment-submatrices-by-one](https://github.com/Kushalkhemka/leetcode/tree/master/2625-increment-submatrices-by-one) |
+## String
+|  |
+| ------- |
+| [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
+## Union-Find
+|  |
+| ------- |
+| [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 <!---LeetCode Topics End-->
