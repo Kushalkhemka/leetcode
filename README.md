@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0445-add-two-numbers-ii](https://github.com/Kushalkhemka/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushalkhemka/leetcode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
+| [3995-gcd-of-odd-and-even-sums](https://github.com/Kushalkhemka/leetcode/tree/master/3995-gcd-of-odd-and-even-sums) |
 ## Enumeration
 |  |
 | ------- |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
+| [3995-gcd-of-odd-and-even-sums](https://github.com/Kushalkhemka/leetcode/tree/master/3995-gcd-of-odd-and-even-sums) |
 ## Binary Search Tree
 |  |
 | ------- |
