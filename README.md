@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0051-n-queens](https://github.com/Kushalkhemka/leetcode/tree/master/0051-n-queens) |
 | [0135-candy](https://github.com/Kushalkhemka/leetcode/tree/master/0135-candy) |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
+| [0416-partition-equal-subset-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Dynamic Programming
 |  |
 | ------- |
+| [0416-partition-equal-subset-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
