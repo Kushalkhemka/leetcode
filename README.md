@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
+| [0415-add-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0415-add-strings) |
 | [0445-add-two-numbers-ii](https://github.com/Kushalkhemka/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
 | [3844-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushalkhemka/leetcode/tree/master/3844-number-of-ways-to-assign-edge-weights-i) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## String
 |  |
 | ------- |
+| [0415-add-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0415-add-strings) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 ## Union-Find
 |  |
@@ -174,4 +176,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0328-odd-even-linked-list](https://github.com/Kushalkhemka/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/Kushalkhemka/leetcode/tree/master/0445-add-two-numbers-ii) |
+## Simulation
+|  |
+| ------- |
+| [0415-add-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0415-add-strings) |
 <!---LeetCode Topics End-->
