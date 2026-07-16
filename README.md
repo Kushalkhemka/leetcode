@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/Kushalkhemka/leetcode/tree/master/0115-distinct-subsequences) |
 | [0368-largest-divisible-subset](https://github.com/Kushalkhemka/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/Kushalkhemka/leetcode/tree/master/0115-distinct-subsequences) |
 | [0415-add-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0415-add-strings) |
 | [0583-delete-operation-for-two-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
