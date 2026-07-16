@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0368-largest-divisible-subset](https://github.com/Kushalkhemka/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0583-delete-operation-for-two-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Kushalkhemka/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0415-add-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0415-add-strings) |
+| [0583-delete-operation-for-two-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Kushalkhemka/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
