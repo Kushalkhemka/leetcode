@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0051-n-queens](https://github.com/Kushalkhemka/leetcode/tree/master/0051-n-queens) |
 | [0135-candy](https://github.com/Kushalkhemka/leetcode/tree/master/0135-candy) |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
+| [0368-largest-divisible-subset](https://github.com/Kushalkhemka/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Sorting
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/Kushalkhemka/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
@@ -36,6 +38,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Dynamic Programming
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/Kushalkhemka/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -100,6 +103,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Kushalkhemka/leetcode/tree/master/0204-count-primes) |
+| [0368-largest-divisible-subset](https://github.com/Kushalkhemka/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0415-add-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0415-add-strings) |
 | [0445-add-two-numbers-ii](https://github.com/Kushalkhemka/leetcode/tree/master/0445-add-two-numbers-ii) |
 | [3842-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushalkhemka/leetcode/tree/master/3842-number-of-ways-to-assign-edge-weights-ii) |
