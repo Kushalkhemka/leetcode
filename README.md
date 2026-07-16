@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1559-cherry-pickup-ii](https://github.com/Kushalkhemka/leetcode/tree/master/1559-cherry-pickup-ii) |
 | [2625-increment-submatrices-by-one](https://github.com/Kushalkhemka/leetcode/tree/master/2625-increment-submatrices-by-one) |
@@ -23,12 +24,14 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0037-sudoku-solver](https://github.com/Kushalkhemka/leetcode/tree/master/0037-sudoku-solver) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
+| [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
 ## Sorting
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
+| [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
 | [1256-rank-transform-of-an-array](https://github.com/Kushalkhemka/leetcode/tree/master/1256-rank-transform-of-an-array) |
 ## Dynamic Programming
 |  |
@@ -36,6 +39,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0416-partition-equal-subset-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Kushalkhemka/leetcode/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Kushalkhemka/leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1559-cherry-pickup-ii](https://github.com/Kushalkhemka/leetcode/tree/master/1559-cherry-pickup-ii) |
@@ -150,6 +154,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
 ## Backtracking
 |  |
 | ------- |
@@ -171,6 +176,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0415-add-strings](https://github.com/Kushalkhemka/leetcode/tree/master/0415-add-strings) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
+| [1129-longest-string-chain](https://github.com/Kushalkhemka/leetcode/tree/master/1129-longest-string-chain) |
 ## Union-Find
 |  |
 | ------- |
