@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0368-largest-divisible-subset](https://github.com/Kushalkhemka/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Kushalkhemka/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0493-reverse-pairs](https://github.com/Kushalkhemka/leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Kushalkhemka/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0721-accounts-merge](https://github.com/Kushalkhemka/leetcode/tree/master/0721-accounts-merge) |
 | [0967-minimum-falling-path-sum](https://github.com/Kushalkhemka/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0173-binary-search-tree-iterator](https://github.com/Kushalkhemka/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0270-closest-binary-search-tree-value](https://github.com/Kushalkhemka/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0285-inorder-successor-in-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0285-inorder-successor-in-bst) |
+| [0493-reverse-pairs](https://github.com/Kushalkhemka/leetcode/tree/master/0493-reverse-pairs) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Kushalkhemka/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Kushalkhemka/leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Kushalkhemka/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -207,9 +209,23 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/Kushalkhemka/leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Kushalkhemka/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/Kushalkhemka/leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Kushalkhemka/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Kushalkhemka/leetcode/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Kushalkhemka/leetcode/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Kushalkhemka/leetcode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
